@@ -6,13 +6,13 @@ function Header() {
     return (
         <div className='header-div' >
             <div className='logo-div'>
-                <img src={logo} alt='logo-image'></img>
+                <img src={logo} alt='logo'></img>
             </div>
             <div>
                 <div>
                     <div>
                        <div><FontAwesomeIcon icon={["far", "comment"]} /></div>
-                       <span>comment (20)</span>
+                       <span>Comment (20)</span>
                     </div>
                     
                 </div>
@@ -31,7 +31,7 @@ function Header() {
                 <div>
                     <div>
                        <div><FontAwesomeIcon icon={["fas", "desktop"]} /></div>
-                       <span>comment (20)</span>
+                       <span>Screen (3)</span>
                     </div>
                 </div>
             </div>
@@ -39,4 +39,4 @@ function Header() {
     )
 }
 
-export default Header
+export default React.memo(Header)

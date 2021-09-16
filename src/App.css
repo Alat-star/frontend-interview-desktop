@@ -1012,12 +1012,7 @@ caption {
    scroll-behavior: smooth;
  }
 
- h1{
-  
- }
  body {
-   
-
   font-family: 'Poppins', sans-serif;
  }
 
@@ -1076,7 +1071,6 @@ a:hover, a:active, a:focus {
    z-index: 3;
    padding: 40px;
    display:grid;
-   /* grid-auto-flow: column; */
    grid-template-columns: auto auto;
    justify-content: space-between;
  }
@@ -1105,7 +1099,6 @@ a:hover, a:active, a:focus {
    grid-template-columns: repeat(2, auto);
    justify-content: space-between;
    align-items: center;
-
  }
 
  .header-div > div:nth-child(2) > div  > div > span {
@@ -1136,7 +1129,6 @@ a:hover, a:active, a:focus {
    display: grid;
    grid-template-columns: 5fr 3fr;
    justify-content: center;
-   /* align-items: center; */
  }
 
 
@@ -1157,18 +1149,12 @@ a:hover, a:active, a:focus {
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
-  /* place-items: center; */
 }
 
-.form-div > div:nth-child(2) > h4 {
-  /* color: #0246a2;
-  /* justify-self: start; */
-  /* padding-left: -100px; */
-}
+
 
 .form-div > div:nth-child(2) > div {
   display: grid;
-  /* grid-gap: 10px; */
   grid-template-columns: auto auto;
 }
 
@@ -1176,6 +1162,11 @@ a:hover, a:active, a:focus {
 .form-div > div:nth-child(2) > form {
   display: grid;
   grid-gap: 15px;
+}
+
+.form-div > div:nth-child(2) > div > p > span{
+  /* font-size: 2.5vmin; */
+  font-weight: 600;
 }
 
 .form-div > div:nth-child(2) > form > div {
@@ -1226,7 +1217,9 @@ a:hover, a:active, a:focus {
 
 .form-page > div:nth-child(2)  {
   padding: 50px;
-  background: rgba(40,110,250,1);
+  padding-top: 0px;
+  /* padding-bottom: 60vh; */
+  background: #286efa;
   display: grid;
   place-items: center;
   justify-content: center;
@@ -1247,6 +1240,10 @@ a:hover, a:active, a:focus {
  text-align: justify;
  display: grid;
  place-items: center;
+}
+
+.character-guide {
+  font-size: 2vmin;
 }
 
 .loader:empty {
